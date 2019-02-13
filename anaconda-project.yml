@@ -1,0 +1,21 @@
+name: surface3d_plot
+description: An example Bokeh application with a 3D surface plot (requires access to the full Anaconda repository).
+
+
+commands:
+  default:
+    bokeh_app: .
+
+channels: []
+packages: []
+
+env_specs:
+  anaconda44_py35:
+    channels: []
+    packages:
+      - python=3.5
+      - bokeh=0.12.5
+      - tornado=4.5.1
+      - nodejs=6.10.3
+      - numpy=1.12.1
+      - ipykernel=4.6
